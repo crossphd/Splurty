@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+// @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
 .clear {
   clear:both;
@@ -28,8 +29,9 @@
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
+  font-weight: bold;
   padding-top: 26px;
-  font-size: 23px;
+  font-size: 43px;
 }
 
 .links {
@@ -40,12 +42,27 @@
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'eponymousitalic', sans-serrif;
+
 }
 
 header {
-  border-top: 9px solid #222222;
+  border-top: 9px solid #EDEDED;
 }
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'eponymousitalic', sans-serrif;
+  font-weight: bold;
+  font-size: 38px;
+  // font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  font-family: 'eponymousitalic', sans-serrif;
+  font-size: 26px;
+  // font-family: 'Indie Flower', cursive;
 }
