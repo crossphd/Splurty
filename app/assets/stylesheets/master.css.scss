@@ -27,11 +27,12 @@
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style: italic;
+  // font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  // font-style: italic;
   font-weight: bold;
   padding-top: 26px;
-  font-size: 43px;
+  font-size: 38px;
+  font-family: 'eponymousitalic', sans-serrif;
 }
 
 .links {
@@ -55,14 +56,34 @@ hr {
 }
 
 h1 {
-  font-family: 'eponymousitalic', sans-serrif;
-  font-weight: bold;
-  font-size: 38px;
-  // font-family: 'Indie Flower', cursive;
+  // font-family: 'eponymousitalic', sans-serrif;
+  // font-weight: bold;
+  font-size: 34px;
+  font-family: 'Indie Flower', cursive;
 }
 
 h2 {
-  font-family: 'eponymousitalic', sans-serrif;
-  font-size: 26px;
-  // font-family: 'Indie Flower', cursive;
+  // font-family: 'eponymousitalic', sans-serrif;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  text-align: right;
 }
+
+.next-quote {
+  color:#f84342;
+  font-weight: bold;
+  padding-top: 26px;
+  font-size: 22px;
+  // font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'eponymousitalic', sans-serrif;
+}
+
+.footer-blurb {
+  // font-stlye: italic;
+  text-align: right;
+  padding-top: 32px;
+  font-size: 14px;
+  // font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'eponymousitalic', sans-serrif;
+}
+

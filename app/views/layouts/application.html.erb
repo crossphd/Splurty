@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="col-xs-6 slogan">
-      Splurt what you love.. or don't!
+      Splurting what you love.. or don't!
     </div>
     <div class="col-xs-4 links">
       <%= link_to 'Contribute', '#' %>
@@ -26,8 +26,21 @@
   </header>
   <hr />
   <br class="clear" />
+<div class="container">
+  <%= yield %>
+</div>
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-6 next-quote">
+        <%= link_to "This isn't enough, I need more","#", class: 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Hacked together by <a href="https://github.com/CRossPhD">Christopher Ross</a>
+      </div>
+    </div>
+  </div>
 
-<%= yield %>
+
 
 </body>
 </html>

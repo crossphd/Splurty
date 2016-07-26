@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails splurty: test" uuid="f76d95a5-6cc5-42e5-9130-097f3f3ce9e2">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails splurty: development" uuid="2831089b-0c45-4230-be17-14b61727f9cd">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails splurty: production" uuid="16d3b35f-9b98-495f-90fb-1d30fed1271e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
